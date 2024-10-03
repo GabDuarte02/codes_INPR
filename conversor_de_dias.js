@@ -12,14 +12,27 @@ else if (numero_digitado < 1){
 }
 
 else {
+   if (numero_digitado == 1) {
+    console.log("O dia digitado é domingo")
+   }
+   else if (numero_digitado == 2) {
+    console.log("O dia digitado é segunda-feira")
+   }
+   else if (numero_digitado == 3) {
+    console.log("O dia digitado é terça-feira")
+   }
+   else if (numero_digitado == 4) {
+    console.log("O dia digitado é quarta-feira")
+   }
+   else if (numero_digitado == 5) {
+    console.log("O dia digitado é quinta-feira")
+   }
+   else if (numero_digitado == 6) {
+    console.log("O dia digitado é sexta-feira")
+   }
+   else if (numero_digitado == 7) {
+    console.log("O dia digitado é sábado")
+   }
 
-
-
-
-
-
-
-
-
-    
+}
 }
